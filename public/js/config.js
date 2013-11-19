@@ -10,6 +10,5 @@ window.calendar.config( [ '$routeProvider', function( $routeProvider ) {
   }]);
 //Setting HTML5 Location Mode
 window.calendar.config(['$locationProvider', function($locationProvider) {
-    //$locationProvider.html5Mode(true);
-    $locationProvider.hashPrefix("!");
+    $locationProvider.html5Mode(true).hashPrefix("!");
 }]);
